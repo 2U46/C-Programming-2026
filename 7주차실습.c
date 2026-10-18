@@ -6,7 +6,7 @@ void exerc1(void) {
     int score;
     int count = 0;
     double sum = 0;
-    double = average;
+    double average;
 
     while (1) {
         scanf("%d", &score);
