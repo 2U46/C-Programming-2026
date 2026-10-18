@@ -5,7 +5,8 @@
 void exerc1(void) {
     int score;
     int count = 0;
-    int sum = 0;
+    double sum = 0;
+    double = average;
 
     while (1) {
         scanf("%d", &score);
@@ -31,7 +32,8 @@ void exerc1(void) {
         printf("입력된 점수가 없습니다.\n");
     }
     else {
-        printf("%d개, 평균 %.2f\n", count, (double)sum / count);
+        average = sum / count;
+        printf("%d개, 평균 %.2f\n", count, average);
     }
 
 }
