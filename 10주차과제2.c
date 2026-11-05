@@ -22,7 +22,6 @@ int main() {
 		number[most] = temp;
 	}
 
-	printf("\n--- 내림차순 정렬 결과 ---\n");
 	for (int i = 0; i < SIZE; i++) {
 		printf("%5d\t", number[i]);
 		if ((i + 1) % 10 == 0) printf("\n");
